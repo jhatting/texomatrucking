@@ -1,12 +1,12 @@
 {
-  "owner": "John Smith",
-  "siteName": "John Smith's Portfolio",
-  "siteDescription": "John Smith's Portfolio for potential employers",
-  "about": "I'm a web developer from Anytown, USA. I like to build things with HTML, CSS, and JavaScript.",
+  "owner": "Texoma Trucking",
+  "siteName": "TEXOMA TRUCKING",
+  "siteDescription": "We are a specialized transport company based in the Texoma area, dedicated to the reliable transportation of steel and trailers directly from manufacturers in southern Oklahoma and northern Texas to destinations across the USA. With a fleet equipped to handle heavy loads and long hauls, we ensure your cargo is delivered safely and on time, no matter where it needs to go.",
+  "about": "Established in 2024, our transport company specializes in the reliable and efficient transportation of steel and trailers directly from manufacturers in southern Oklahoma and northern Texas to destinations across the USA. As a family-owned business, we are rooted in strong values and a commitment to exceptional service. We pride ourselves on offering fair and competitive rates, ensuring that your cargo is delivered safely and on time. Our team goes above and beyond to meet your needs, making sure every delivery exceeds your expectations.",
   "contact": {
-    "email": "bob@aol.com",
-    "phone": "555-555-5555",
-    "address": "1234 Main St. Anytown, USA 12345"
+    "email": "info@texomatrucking.com",
+    "phone": "646-841-6483",
+    "address": "10916 lois lane, Kingston,, Oklahoma, USA 73439"
   },
   "pages": [
     {
@@ -23,22 +23,7 @@
     }
   ],
   "social": [
-    {
-      "title": "GitHub",
-      "href": "https://github.com/leabs"
-    },
-    {
-      "title": "YouTube",
-      "href": "https://www.youtube.com/@shadowstack"
-    },
-    {
-      "title": "LinkedIn",
-      "href": "https://www.linkedin.com/in/stevenleabo/"
-    },
-    {
-      "title": "CodePen",
-      "href": "https://codepen.io/shadowstack/pens/popular"
-    }
+  
   ],
   "projects": [
     {

@@ -1,24 +1,18 @@
 ---
-const heading = ["Product Name", "Color", "Category", "Price"];
+const heading = ["Product Name", "Price"];
 
 const data = [
   {
-    name: 'Apple MacBook Pro 17"',
-    color: "Silver",
-    category: "Laptop",
-    price: "$2999",
+    name: 'Trailer Delivery',
+    price: "$2.50per mile ($250 minium) ",
   },
   {
-    name: "Microsoft Surface Pro",
-    color: "White",
-    category: "Laptop PC",
-    price: "$1999",
+    name: "Steel Delivery",
+    price: "$2.50 per mile ($250 minium, with a loading fee $200)",
   },
   {
-    name: "Magic Mouse 2",
-    color: "Black",
-    category: "Accessories",
-    price: "$99",
+    name: "ALL Other Deliveries",
+    price: "$2.50 per mile ($250 minium)",
   },
 ];
 ---
@@ -46,8 +40,6 @@ const data = [
             >
               {item.name}
             </th>
-            <td class="px-6 py-4">{item.color}</td>
-            <td class="px-6 py-4">{item.category}</td>
             <td class="px-6 py-4">{item.price}</td>
           </tr>
         ))
