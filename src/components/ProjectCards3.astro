@@ -2,21 +2,22 @@
 
 import ButtonGroup from './ButtonGroup.astro';
 interface Props {
-  projectTitle: string;
-  body: string;
+  projectTitle3: string;
+  body3: string;
   href: string;
   type?: string;
+  repo?: string;
   external?: boolean;
 }
 
-const { href, projectTitle, body, type,  } = Astro.props;
+const { href, projectTitle3, body3, type, repo } = Astro.props;
 ---
 
 <div
   class="bg-gray-50 dark:bg-gray-900 border border-gray-200 shadow-lg dark:border-gray-700 rounded-lg"
 >
-<img class="w-full dark:hidden border-solid border-2" src="https://texomatrucking.s3.us-east-2.amazonaws.com/1s.jpg" alt="dashboard image">
-<img class="w-full hidden dark:block" src="https://texomatrucking.s3.us-east-2.amazonaws.com/1s.jpg" alt="dashboard image">
+<img class="w-full dark:hidden border-solid border-2" src="https://texomatrucking.s3.us-east-2.amazonaws.com/1b.jpg" alt="dashboard image">
+<img class="w-full hidden dark:block" src="https://texomatrucking.s3.us-east-2.amazonaws.com/1b.jpg" alt="dashboard image">
   <div class="px-8 py-8">
   {
     type && (
@@ -26,10 +27,10 @@ const { href, projectTitle, body, type,  } = Astro.props;
     )
   }
   <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">
-    {projectTitle}
+    {projectTitle3}
   </h2>
   <p class="text-lg font-normal text-gray-700 dark:text-gray-400 mb-4">
-    {body}
+    {body3}
   </p>
-  <ButtonGroup text1="WEBSITE" href1="https://www.okbrand.com/" />
+  <ButtonGroup text1="WEBSITE" href1={href} />
 </div>

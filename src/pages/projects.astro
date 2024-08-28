@@ -1,17 +1,26 @@
 ---
-const title = "Projects";
-const subtitle = "Some Projects";
+const title = "TEXOMA MANUFACTURERS";
+const subtitle = "THIS IS A COMPREHENSIVE LIST OF STEEL MATERIAL AND TRAILER MANUFACTURERS IN THE TEXOMA AREA THAT WE HAVE DELIVERY TRAILERS.";
 
 import Layout from "../layouts/Layout.astro";
 
 import HeaderSmall from "../components/HeaderSmall.astro";
 import ProjectCard from "../components/ProjectCards.astro";
+import ProjectCard1 from "../components/ProjectCards1.astro";
+import ProjectCard2 from "../components/ProjectCards2.astro";
+import ProjectCard3 from "../components/ProjectCards3.astro";
 import data from "../data/site.json";
 
 type Props = {
   projectTitle: string;
+  projectTitle1: string;
+  projectTitle2: string;
+  projectTitle3: string;
   href: string;
   body: string;
+  body1: string;
+  body2: string;
+  body3: string;
   type?: string;
   repo?: string;
 };
@@ -29,8 +38,14 @@ type Props = {
                 (
                   value: {
                     projectTitle: string;
+                    projectTitle1: string;
+                    projectTitle2: string;
+                    projectTitle3: string;
                     href: string;
                     about: string;
+                    about1: string;
+                    about2: string;
+                    about3: string;
                     repo?: string;
                     type?: string;
                   },
@@ -41,6 +56,27 @@ type Props = {
                       projectTitle={value.projectTitle}
                       href={value.href}
                       body={value.about}
+                      type={value.type}
+                      repo={value.repo}
+                    />
+                    <ProjectCard1
+                      projectTitle1={value.projectTitle1}
+                      href={value.href}
+                      body1={value.about1}
+                      type={value.type}
+                      repo={value.repo}
+                    />
+                    <ProjectCard2
+                      projectTitle2={value.projectTitle2}
+                      href={value.href}
+                      body2={value.about2}
+                      type={value.type}
+                      repo={value.repo}
+                    />
+                    <ProjectCard3
+                      projectTitle3={value.projectTitle3}
+                      href={value.href}
+                      body3={value.about3}
                       type={value.type}
                       repo={value.repo}
                     />

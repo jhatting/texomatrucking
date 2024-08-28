@@ -1,7 +1,7 @@
 {
   "owner": "Texoma Trucking",
   "siteName": "TEXOMA TRUCKING",
-  "siteDescription": "We are a specialized transport company based in the Texoma area, dedicated to the reliable transportation of steel and trailers directly from manufacturers in southern Oklahoma and northern Texas to destinations across the USA. With a fleet equipped to handle heavy loads and long hauls, we ensure your cargo is delivered safely and on time, no matter where it needs to go.",
+  "siteDescription": "We are a specialized transport company based in the Texoma area, dedicated to the reliable transportation of steel material and trailers directly from manufacturers in southern Oklahoma and northern Texas to destinations across the USA. With a fleet equipped to handle heavy loads and long hauls, we ensure your cargo is delivered safely and on time, no matter where it needs to go.",
   "about": "Established in 2024, our transport company specializes in the reliable and efficient transportation of steel and trailers directly from manufacturers in southern Oklahoma and northern Texas to destinations across the USA. As a family-owned business, we are rooted in strong values and a commitment to exceptional service. We pride ourselves on offering fair and competitive rates, ensuring that your cargo is delivered safely and on time. Our team goes above and beyond to meet your needs, making sure every delivery exceeds your expectations.",
   "contact": {
     "email": "info@texomatrucking.com",
@@ -14,7 +14,7 @@
       "href": "/"
     },
     {
-      "title": "Projects",
+      "title": "TEXOMA MANUFACTURERS",
       "href": "/projects"
     },
     {
@@ -27,36 +27,28 @@
   ],
   "projects": [
     {
-      "projectTitle": "Project 1",
+      "projectTitle": "Oklahoma Steel & Wire ",
       "href": "project/one",
-      "about": "Database of books and reviews from users complete with auth and comments and so much more!!!",
-      "type": "Python, Django, HTML, CSS",
-      "repo": "https://github.com",
-      "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+      "about": "OKBRAND, part of Oklahoma Steel & Wire, is a leading American manufacturer of high-quality agricultural fencing and industrial wire products, made from 100% recycled materials and known for their durability and reliability.",
+      "type": "Steel Manufacturer, American Made"
     },
     {
-      "projectTitle": "Project 2",
-      "href": "project/two",
-      "about": "Video dashboard using JavaScript that allows user to build and share a layout of videos from YouTube.",
-      "repo": "https://github.com",
-      "type": "JavaScript, HTML, CSS",
-      "image": "../assets/screen2.png",
-      "featured": true
+      "projectTitle1": "J & I Manufacturing Inc",
+      "href": "https://jimfg.com/",
+      "about1": "J & I Manufacturing, Inc. specializes in producing high-quality steel products, including truck beds, trailers, steel buildings, and farm and ranch supplies, with over 40 years of industry experience.",
+      "type": "Steel Manufacturer, American Made"
     },
     {
-      "projectTitle": "Project 3",
-      "href": "project/three",
-      "about": "Some info about this project here, please add something here for this project ok here.",
-      "type": "PHP, MySQL, HTML, CSS",
-      "repo": "https://github.com",
-      "image": "../assets/screen2.png"
+      "projectTitle2": "Big Tex Trailers",
+      "href": "https://www.bigtextrailers.com/",
+      "about2": "Big Tex Trailers is the leading manufacturer of professional-grade trailers in America, offering a wide range of durable and reliable trailers designed for heavy-duty hauling and tailored for professionals across various industries.",
+      "type": "Trailer Manufacturer, American Made"
     },
     {
-      "projectTitle": "Project 4",
-      "href": "project/four",
-      "about": "Some info about project 4 I'm not sure haha ok see ya",
-      "type": "WordPress",
-      "repo": "https://github.com"
+      "projectTitle3": "CM Truck Beds Madill",
+      "href": "https://cmtruckbeds.com/",
+      "about3": "CM Truck Beds designs and manufactures rugged, durable, and customizable truck beds for various applications, including construction, agriculture, and fleet management, offering a wide range of models in both steel and aluminum to meet the demands of heavy-duty work environments.",
+      "type": "Truck Bed Manufacturer, American Made"
     }
   ]
 }
