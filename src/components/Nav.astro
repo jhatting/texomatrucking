@@ -11,10 +11,17 @@ import DarkModeToggle from "./DarkModeToggle.astro";
     class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
   >
     <a href="/">
-      <span
-        class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-        >{data.siteName}</span
-      >
+      <!-- Logo for light and dark mode -->
+      <img 
+        src="DarkMode.png" 
+        alt="Site Logo Light Mode" 
+        class="hidden dark:block h-8 w-auto"
+      />
+      <img 
+        src="LightMode.png" 
+        alt="Site Logo Dark Mode" 
+        class="dark:hidden h-8 w-auto"
+      />
     </a>
    
     <button
